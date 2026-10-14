@@ -1,0 +1,35 @@
+# Hệ thống quản lý phiên bản
+.git/
+.gitignore
+
+# Thư mục build và artifact
+build/
+backend/build/
+frontend/dist/
+
+# Bộ nhớ đệm Gradle
+.gradle/
+backend/.gradle/
+
+# IDE và Editor
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Mã nguồn frontend (không cần thiết để build Docker backend)
+frontend/
+
+# Biến môi trường và thông tin bí mật
+.env
+*.env.local
+
+# File log và file tạm
+*.log
+*.tmp
+*.temp
+
+# Tài liệu và hình ảnh
+screenshots/
+*.md
